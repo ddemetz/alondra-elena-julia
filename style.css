@@ -1,0 +1,565 @@
+/* CSS files add styling rules to your content */
+
+/* font-family: 'Slabo 27px', serif;*/
+body {
+  /*   font-family: helvetica, arial, sans-serif; */
+  margin: 2em;
+/*   background-color: #2E6F94; */
+/*   background-image: url("https://www.vectordiary.com/isd_tutorials/001_starrynight/starry_night.gif"); */
+  /*   font-family: 'Bungee', cursive; */
+  /*   font-family: "Slabo 27px", serif; */
+}
+
+.homepage {
+   background-image: url("https://www.vectordiary.com/isd_tutorials/001_starrynight/starry_night.gif");
+}
+
+
+
+
+/* HEADER */
+.header {
+  display: flex;
+  background-color: 	#297fb8;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.header {
+  box-shadow: 0px 10px 5px #27272780;
+  -webkit-box-shadow: 0px 10px 5px #27272780;
+  -moz-box-shadow: 0px 10px 5px #27272780;
+  position: relative;
+  z-index: 999999;
+}
+
+.title {
+  font-size: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navigation-icon {
+  height: 30px;
+  filter: invert(100%);
+}
+
+/* CALL TO ACTION */
+.call-to-action {
+  margin-top: 150px;
+  margin-right: 50px;
+  padding-left: 75px;
+  padding-right: 50px;
+  text-align: center;
+/*   border:2px solid white; */
+}
+.map {
+  height: 700px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+/*   border:2px solid white; */
+}
+
+.call-to-action-container {
+  display: flex;
+  justify-content: space-around;
+/* border:2px solid white; */
+}
+
+.call-to-action-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.calling-to-action-text {
+  font-family: bungee;
+  text-shadow: 2px 2px #708090;
+  color: white;
+}
+
+button {
+  color: white;
+  /*   background-color: #C4C4C4; */
+  background-color: #297fb8;
+  border-color: #C4C4C4;
+  padding: 10px;
+  /*   font-family: "Bungee", cursive; */
+  font-family: "Droid Serif";
+  border-radius: 12px;
+  transition: all 0.3s ease 0s;
+  border: none;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: translateY(-7px);
+}
+
+.button1 {
+  margin-left: 50px;
+  margin-right: 15px;
+}
+.button2 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.button3 {
+  margin-left: 15px;
+  margin-right: 50px;
+}
+.calling-to-action-text {
+  color: #e6e9f0;
+  font-size: 30px;
+}
+
+/* OVERVIEW */
+
+.overview {
+  display: flex;
+  flex-direction: row;
+  /*   border:2px solid black; */
+  justify-content: space-around;
+  margin-top: 5px;
+  width: 100%;
+}
+.news-section {
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  width: 100%;
+} 
+.recent-news {
+  /*   border: 2px solid black; */
+  color: white;
+  font-family: "Bungee";
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 1%;
+  padding-left: 75px;
+  padding-right: 75px;
+  text-align: center;
+/*   font-size: 100%; */
+}
+
+.news-article {
+  width: 100%;
+}
+.overview-section {
+  width: 100%;
+/*     border: 2px solid white; */
+}
+
+.overview-text {
+/*     border: 2px solid white; */
+  margin-right: 50px;
+  margin-top: 75px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  padding-left: 15px;
+ padding-bottom:50px;
+  text-shadow: 2px 2px #708090;
+  font-family: 'Slabo 27px', serif;
+}
+
+a {
+  font-size: 15px;
+  color: white;
+  font-family: bungee;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #DCDCDC;
+}
+
+.header {
+  display: flex;
+  background-color: 	#297fb8;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  background-color: 	#297fb8;
+  align-items: center;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0px 10px 5px #27272780;
+  -webkit-box-shadow: 0px 10px 5px #27272780;
+  -moz-box-shadow: 0px 10px 5px #27272780;
+  position: relative;
+  z-index: 999999;
+}
+h4 {
+  font-family: bungee;
+  color: white;
+  text-decoration: none;
+}
+
+.button-image {
+  height: 50px;
+}
+
+.news-button {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  align-items: center;
+  width: 90%;
+}
+.button-text {
+  padding: 10px;
+
+}
+
+.button-image2 {
+  height: 50px;
+}
+.button-text2 {
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  font-family: bungee;
+  color: white;
+}
+
+.page-body {
+  display: flex;
+  height: 1000px;
+  top-margin: 500px;
+  flex-direction: column;
+  align-items: flex-start;
+  left-margin: 20px;
+}
+
+.block {
+  font-size: 20px;
+}
+
+/* PETITIONS */
+.climate-march {
+  margin-top: 50px;
+  width: 100%;
+  filter: opacity(50%);
+}
+
+.petitions1 {
+  filter: opacity(100%);
+  position: absolute;
+  z-index: 1;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.petition-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  align-items: center;
+  flex-direction: column;
+}
+.petition-button1 {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 15px;
+}
+
+.petition-button2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 125px;
+  padding-right: 125px;
+  margin-bottom: 15px;
+}
+.petition-button3 {
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+.petition-overview-text {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  padding-left: 15px;
+  font-family:"Slabo 27px";
+}
+.petition-overview {
+  display: flex;
+  /*   border:2px solid black; */
+  justify-content: space-around;
+  margin-top: 5px;
+  align-items: center;
+}
+/*   CONTACT */
+.representatives1 {
+  filter: opacity(100%);
+  position: absolute;
+  z-index: 1;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.capitol {
+  height: 360px;
+  margin-top: 50px;
+  width: 100%;
+  object-fit: cover;
+  filter: opacity(50%);
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-button1 {
+  padding-left: 189px;
+  padding-right: 189px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-bottom: 15px;
+}
+
+.contact-button2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 180px;
+  padding-right: 180px;
+  margin-bottom: 15px;
+}
+.contact-button3 {
+  padding-top: 23px;
+  padding-bottom: 23px;
+  margin-bottom:15px;
+}
+.contact-button4{
+padding-left:180px;
+  padding-right:180px;
+  padding-top:8px;
+  padding-bottom:8px;
+  
+/*    margin-left: 2%;
+  margin-right: 2%;
+  padding-top: 4%;
+  padding-bottom:4%;
+  padding-left:200px;
+  padding-right:200px; */
+}
+.contact-button5 {
+  font-size: 10px;
+  
+}
+
+
+.contact-overview-text {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  padding-left: 15px;
+  font-family:"Slabo 27px";
+}
+.contact-overview {
+  display: flex;
+  /*   border:2px solid black; */
+  justify-content: space-around;
+  margin-top: 5px;
+  align-items: center;
+}
+
+/* FEEDBACK */
+
+.submit {
+  color: white;
+  /*   background-color: #C4C4C4; */
+  background-color: #2b7cb9;
+  border-color: #C4C4C4;
+  padding: 10px;
+  font-family: bungee;
+/*   font-family: "Bungee"; */ */
+  border-radius: 8px;
+  border: none;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100px;
+}
+
+
+.rainforest {
+  font-family: "Slabo 27px", serif;
+}
+
+.donationlinks {
+}
+
+.resource-masterlist {
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  font-size: 27px;
+  margin: 1.5%;
+  padding: .56%;
+}
+
+.resource-masterlist-titles {
+  font-family: bungee;
+  color: white;
+  font-size: 33px;
+}
+
+.feedback-form {
+  font-family: bungee;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.name-input {
+  margin: 2%;
+  padding: 2%;
+}
+
+.feedback-text {
+  margin: 2%;
+  padding: 2%;
+}
+
+.overall-enjoy {
+  margin: 2%;
+  padding: 2%;
+}
+
+.email {
+  margin: 2%;
+  padding: 2%;
+}
+
+.message {
+  font-family: bungee;
+  color: white;
+  font-size: 20pz;
+}
+
+.donationlinks {
+  text-align: space-around;
+  font-size: 20px;
+  color: white;
+  padding-left: 15px;
+   margin: 30px;
+  width: 250px;
+}
+
+.other-page {
+  background-color: #87CEFA;
+}
+
+
+/*DONATE*/
+
+.donate-1{
+  filter: opacity(100%);
+  position: absolute;
+  z-index: 1;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.glacier {
+  height: 360px;
+  margin-top: 50px;
+  width: 100%;
+  object-fit: cover;
+  filter: opacity(50%);
+}
+
+.donate-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  align-items: center;
+  flex-direction: column;
+}
+.donate-button1 {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-bottom: 15px;
+}
+
+.donate-button2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25%;
+  padding-right: 25%;
+  margin-bottom: 15px;
+}
+.donate-button3 {
+  padding-top: 23px;
+  padding-bottom: 23px;
+  margin-bottom:15px;
+
+}
+.donate-button4{
+padding-left:200px;
+  padding-right:200px;
+  padding-top:8px;
+  padding-bottom:8px;
+
+  
+/*    margin-left: 2%;
+  margin-right: 2%;
+  padding-top: 4%;
+  padding-bottom:4%;
+  padding-left:200px;
+  padding-right:200px; */
+}
+.donate-overview-text {
+  text-align: center;
+  font-size: 20px;
+  color: #f6f9fd;
+  padding-left: 15px;
+  font-family:"Slabo 27px";
+}
+.donate-overview {
+  display: flex;
+  /*   border:2px solid black; */
+  justify-content: space-around;
+  margin-top: 5px;
+  align-items: center;
+  
+}
